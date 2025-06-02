@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url("https://www.yudiz.com/codepen/gsap-landing-page/tanjiro.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: #fff;
+}
+#nav h2{
+    font-size: 50px;
+    font-weight: 100px;
+    background-color: #ffffff7b;
+    color: rgba(0, 0, 0, 0.515);
+    backdrop-filter: blur(1px);
+    padding: 20px 20px;
+    border-radius: 230px;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: #6967675d;
+    top: 0;
+    right: -40%;
+    color: #fff;
+    backdrop-filter: blur(50px);
+    padding: 150px 50px;
+}
+body{
+    overflow-x: hidden;   
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+#full h4{
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+    line-break: auto;
+    color: rgb(255, 148, 16);
+    text-shadow: 23px;
+    text-rendering: optimizeLegibility;
+    text-wrap: 45px;
+    margin-bottom: 5px;
+    font-weight: 400px;
+   
+}
